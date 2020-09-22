@@ -1,0 +1,34 @@
+{
+  "name": "Training-Arc",
+  "version": "1.0.0",
+  "description": "Road to React",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHmims/Training-Arc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AHmims/Training-Arc/issues"
+  },
+  "homepage": "https://github.com/AHmims/Training-Arc#readme",
+  "dependencies": {
+    "@mikro-orm/cli": "^4.0.6",
+    "@mikro-orm/core": "^4.0.6",
+    "@mikro-orm/migrations": "^4.0.6",
+    "@mikro-orm/mysql": "^4.0.6",
+    "@mikro-orm/postgresql": "^4.0.6",
+    "mysql2": "^2.2.5",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  }
+}
